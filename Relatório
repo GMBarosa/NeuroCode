@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Relatório DI - Sprint 5</title>
+</head>
+<body>
+  <h1>Relatório DI - Sprint 5</h1>
+
+  <h2>Contextualização</h2>
+  <p>O projeto <strong>NeuroCode</strong> nasceu da necessidade de oferecer uma plataforma de ensino de programação que fosse realmente adaptável ao estilo de aprendizado de cada usuário.</p>
+  <p>A proposta da NeuroCode é personalizar o conteúdo com base em testes cognitivos e oferecer uma experiência de aprendizado alinhada ao perfil individual de cada estudante.</p>
+
+  <h2>Problema Identificado</h2>
+  <ul>
+    <li>Os diferentes estilos de aprendizagem (visual, auditivo, cinestésico, etc.)</li>
+    <li>A necessidade de adaptação de conteúdo conforme o desempenho do aluno</li>
+    <li>A importância de motivação contínua através de gamificação</li>
+  </ul>
+  <p><strong>Consequências:</strong></p>
+  <ul>
+    <li>Dificuldade de retenção de conteúdo</li>
+    <li>Falta de engajamento dos alunos</li>
+    <li>Abandono das plataformas tradicionais</li>
+  </ul>
+
+  <h2>Proposta de Solução</h2>
+  <ul>
+    <li>Realiza um teste cognitivo inicial para entender o perfil do usuário</li>
+    <li>Adapta automaticamente às aulas (visual, prática, teórica)</li>
+    <li>Traz feedbacks inteligentes e personalizados</li>
+    <li>Oferece gamificação para aumentar a motivação</li>
+    <li>Permite mentoria híbrida (IA e humanos)</li>
+  </ul>
+
+  <h2>Objetivos do Projeto</h2>
+  <ul>
+    <li>Desenvolver uma plataforma com interface simples e acessível</li>
+    <li>Personalizar o conteúdo de ensino conforme o perfil de aprendizado</li>
+  </ul>
+
+  <h2>Tecnologias Utilizadas</h2>
+  <ul>
+    <li>Word</li>
+    <li>GitHub</li>
+    <li>Trello</li>
+    <li>Figma (protótipo)</li>
+  </ul>
+
+  <h2>Metodologia</h2>
+  <ul>
+    <li>Divisão por sprints</li>
+    <li>Prototipação com base em wireframes de baixa, média e alta fidelidade</li>
+  </ul>
+
+  <h2>Relatório de Contribuição Individual</h2>
+  <p><strong>Projeto:</strong> NeuroCode — Plataforma de ensino adaptativa</p>
+  <p><strong>Disciplina:</strong> Design de Interação e Projeto Integrador</p>
+  <p><strong>Turma:</strong> ADS1N1-2025-1</p>
+  <p><strong>Professor(a):</strong> Cristiane</p>
+
+  <h3>Sprint 1 – Planejamento e Estruturação Inicial do Projeto</h3>
+  <p>Planejamento inicial, definição da proposta, nome da empresa, logotipo, slogan, organização da equipe, eleição do CEO, termo de aceite e uso do Trello.</p>
+
+  <h3>Sprint 2 – Início da Prototipação e Desenvolvimento da Interface</h3>
+  <p>Início da prototipação com Figma: telas de boas-vindas, teste cognitivo e página inicial.</p>
+
+  <h3>Sprint 3 – Expansão da Prototipação e Novas Funcionalidades</h3>
+  <p>Novas telas no Figma: mentoria, gamificação, perfil do usuário e chatbot, focando na usabilidade.</p>
+
+  <h3>Sprint 4 – Conclusão do Protótipo e Personalização</h3>
+  <p>Protótipo de alta fidelidade, validação visual, vídeo pitch de venda.</p>
+
+  <h3>Sprint 5 – Entrega Final e Apresentação</h3>
+  <p>Finalização do relatório, preparação da apresentação, materiais de apoio, entrega no GitHub e ajustes finais.</p>
+
+   <h2>Conclusão</h2>
+  <p>O trabalho foi desenvolvido de forma colaborativa. O NeuroCode visa personalizar o aprendizado com uma plataforma funcional e visualmente atraente.</p>
+</body>
+</html>
