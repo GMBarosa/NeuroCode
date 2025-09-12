@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Relatório – Sprint 1 | NeuroCode Libras</title>
+  <meta name="description" content="Relatório da Sprint 1 do projeto NeuroCode Libras — Plataforma de ensino de programação inclusiva." />
+  <style>
+    :root{
+      --bg:#f7f8fa;
+      --card:#ffffff;
+      --muted:#6b7280;
+      --accent:#0f172a;
+      --border:#e6e9ef;
+      --accent-2:#0ea5a4;
+      font-family: "Segoe UI", Roboto, -apple-system, "Helvetica Neue", Arial;
+    }
+    body{
+      margin:0;
+      background:var(--bg);
+      color:var(--accent);
+      line-height:1.6;
+      padding:2rem;
+    }
+    .container{
+      max-width:900px;
+      margin:0 auto;
+    }
+    header{
+      background:linear-gradient(90deg, rgba(14,165,164,0.06), rgba(59,130,246,0.03));
+      padding:1.25rem 1.5rem;
+      border-radius:12px;
+      border:1px solid var(--border);
+      margin-bottom:1rem;
+    }
+    h1{margin:.2rem 0; font-size:1.5rem;}
+    p.lead{margin:0; color:var(--muted);}
+    main{background:var(--card); padding:1.25rem; border-radius:12px; border:1px solid var(--border);}
+    section{margin-bottom:1rem;}
+    h2{font-size:1.1rem; margin:0 0 .5rem 0;}
+    ul{margin:.25rem 0 0 1.25rem;}
+    .meta{display:flex;flex-wrap:wrap;gap:.5rem;color:var(--muted);font-size:.95rem}
+    .grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+    .card{background:#fbfdff;padding:.75rem;border-radius:8px;border:1px solid var(--border)}
+    footer{font-size:.9rem;color:var(--muted);margin-top:.75rem;text-align:center}
+    @media (max-width:700px){ .grid{grid-template-columns:1fr} }
+  </style>
+</head>
+<body>
+  <div class="container" role="main">
+    <header aria-labelledby="title">
+      <h1 id="title">Relatório – Sprint 1</h1>
+      <p class="lead">Projeto: <strong>NeuroCode Libras</strong> — Plataforma de ensino de programação inclusiva</p>
+      <div class="meta" aria-hidden="false">
+        <span>Disciplina: Engenharia de Software I (ADS 300)</span>
+        <span>Professor: Carlos Henrique Tavares Brumatti</span>
+        <span>Turma: ADS – 2025/2</span>
+      </div>
+    </header>
+
+    <main>
+      <section id="contextualizacao" aria-labelledby="ctx-title">
+        <h2 id="ctx-title">Contextualização</h2>
+        <p>
+          O <strong>NeuroCode Libras</strong> nasceu da necessidade de ampliar a acessibilidade no ensino de programação,
+          oferecendo uma versão inclusiva da plataforma NeuroCode voltada especificamente para estudantes surdos.
+        </p>
+        <p>
+          Muitos alunos enfrentam dificuldades em cursos tradicionais de tecnologia por causa da ausência de recursos de acessibilidade,
+          como Libras, legendas ou materiais visuais. Isso gera barreiras significativas de aprendizado e reduz as oportunidades de inclusão digital.
+        </p>
+      </section>
+
+      <section id="problema" aria-labelledby="prob-title">
+        <h2 id="prob-title">Problema Identificado</h2>
+        <p>O ensino de programação para pessoas surdas enfrenta limitações como:</p>
+        <ul>
+          <li>Ausência de tradução em Libras nas aulas e materiais didáticos.</li>
+          <li>Falta de legendas automáticas de qualidade em vídeos.</li>
+          <li>Pouco uso de recursos visuais que facilitem a compreensão de conceitos complexos.</li>
+        </ul>
+        <p><strong>Consequências:</strong></p>
+        <ul>
+          <li>Dificuldade de acompanhamento das aulas.</li>
+          <li>Menor engajamento dos alunos surdos.</li>
+          <li>Exclusão de um público que deseja se inserir no mercado de tecnologia.</li>
+        </ul>
+      </section>
+
+      <section id="objetivos" aria-labelledby="obj-title">
+        <h2 id="obj-title">Objetivos do Projeto</h2>
+        <ul>
+          <li>Desenvolver uma plataforma de ensino inclusiva e acessível.</li>
+          <li>Garantir que estudantes surdos tenham autonomia no processo de aprendizagem.</li>
+          <li>Democratizar o acesso à tecnologia, reduzindo barreiras educacionais.</li>
+        </ul>
+      </section>
+
+      <section id="proposta" aria-labelledby="prop-title">
+        <h2 id="prop-title">Proposta de Solução</h2>
+        <p>O NeuroCode Libras tem como objetivo oferecer um ambiente de aprendizagem acessível, com:</p>
+        <ul>
+          <li>Tradução simultânea em Libras para videoaulas e conteúdos.</li>
+          <li>Legendas automáticas sincronizadas, garantindo clareza e inclusão.</li>
+          <li>Recursos visuais interativos, que simplificam a explicação de algoritmos e lógica de programação.</li>
+          <li>Ambiente responsivo e acessível, adaptado a dispositivos móveis e desktops.</li>
+        </ul>
+      </section>
+
+      <section id="tecnologias" aria-labelledby="tech-title">
+        <h2 id="tech-title">Tecnologias Utilizadas</h2>
+        <div class="grid">
+          <div class="card">
+            <h3>Ferramentas de documentação e gestão</h3>
+            <ul>
+              <li>Word (relatórios e documentação)</li>
+              <li>Trello (gestão de tarefas)</li>
+              <li>GitHub (armazenamento do projeto)</li>
+              <li>Figma (protótipos de telas – planejado para as próximas sprints)</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Metodologia</h3>
+            <p>Adoção da metodologia ágil <strong>Scrum</strong>.</p>
+            <p>Definição dos papéis:</p>
+            <ul>
+              <li>Product Owner: Gabriele Aparecida Resende Bhering</li>
+              <li>Scrum Master: Bárbara Ferreira</li>
+              <li>Desenvolvedores: Leiliane Freitas, Gustavo Barbosa, André Luiz Rodrigues, Pinto, Rangel Macedo Gonçalves</li>
+            </ul>
+            <p>Organização no Trello com colunas: Backlog, Fazer, Fazendo, Testando, Feito.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="atividades" aria-labelledby="ativ-title">
+        <h2 id="ativ-title">Atividades realizadas na Sprint 1</h2>
+        <ul>
+          <li>Definição do nome do projeto: <em>NeuroCode Libras</em>.</li>
+          <li>Criação e organização do Trello, com backlog inicial.</li>
+          <li>Definição e registro dos papéis do time.</li>
+          <li>Identificação do problema enfrentado pelo público-alvo (alunos surdos).</li>
+          <li>Elaboração da proposta inicial de solução digital.</li>
+        </ul>
+      </section>
+
+      <section id="conclusao" aria-labelledby="concl-title">
+        <h2 id="concl-title">Conclusão</h2>
+        <p>
+          A Sprint 1 permitiu consolidar a identidade do projeto NeuroCode Libras e estabelecer uma base sólida para o desenvolvimento.
+          Com a definição clara do problema e da proposta de solução, a equipe está preparada para avançar para a Sprint 2, focada na
+          elaboração dos requisitos e casos de uso.
+        </p>
+      </section>
+
+      <footer>
+        <p>Conteúdo extraído do PDF original (Relatório – Sprint 1). :contentReference[oaicite:1]{index=1}</p>
+      </footer>
+    </main>
+  </div>
+</body>
+</html>
