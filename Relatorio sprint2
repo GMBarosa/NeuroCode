@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Relatório – Sprint 2 | NeuroCode Libras</title>
+  <style>
+    body { font-family: Arial, Helvetica, sans-serif; margin: 0; padding: 2rem; line-height: 1.6; background: #f7f7fb; color: #222; }
+    .container { max-width: 900px; margin: auto; background: #fff; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
+    h1, h2, h3 { color: #2c3e50; }
+    h1 { font-size: 1.8rem; margin-bottom: 1rem; }
+    h2 { margin-top: 1.5rem; font-size: 1.4rem; border-bottom: 2px solid #e0e0e0; padding-bottom: .25rem; }
+    ul { margin: .5rem 0 1rem 1.5rem; }
+    li { margin-bottom: .4rem; }
+    footer { margin-top: 2rem; font-size: 0.9rem; color: #555; text-align: center; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Relatório – Sprint 2</h1>
+    <p><strong>Projeto:</strong> NeuroCode Libras – Plataforma de ensino de programação inclusiva</p>
+    <p><strong>Disciplina:</strong> Engenharia de Software I (ADS 300)</p>
+    <p><strong>Professor:</strong> Carlos Henrique Tavares Brumatti</p>
+    <p><strong>Turma:</strong> ADS – 2025/2</p>
+
+    <h2>Contextualização</h2>
+    <p>O NeuroCode Libras nasceu da necessidade de ampliar a acessibilidade no ensino de programação, oferecendo uma versão inclusiva da plataforma NeuroCode voltada especificamente para estudantes surdos.</p>
+    <p>Muitos alunos enfrentam dificuldades em cursos tradicionais de tecnologia por causa da ausência de recursos de acessibilidade, como Libras, legendas ou materiais visuais. Isso gera barreiras significativas de aprendizado e reduz as oportunidades de inclusão digital.</p>
+
+    <h2>Problema Identificado</h2>
+    <ul>
+      <li>Ausência de tradução em Libras nas aulas e materiais didáticos.</li>
+      <li>Falta de legendas automáticas de qualidade em vídeos.</li>
+      <li>Pouco uso de recursos visuais que facilitem a compreensão de conceitos complexos.</li>
+    </ul>
+    <p><strong>Consequências:</strong></p>
+    <ul>
+      <li>Dificuldade de acompanhamento das aulas.</li>
+      <li>Menor engajamento dos alunos surdos.</li>
+      <li>Exclusão de um público que deseja se inserir no mercado de tecnologia.</li>
+    </ul>
+
+    <h2>Proposta de Solução</h2>
+    <p>O NeuroCode Libras tem como objetivo oferecer um ambiente de aprendizagem acessível, com:</p>
+    <ul>
+      <li>Tradução simultânea em Libras para videoaulas e conteúdos.</li>
+      <li>Legendas automáticas sincronizadas, garantindo clareza e inclusão.</li>
+      <li>Recursos visuais interativos, que simplificam a explicação de algoritmos e lógica de programação.</li>
+      <li>Ambiente responsivo e acessível, adaptado a dispositivos móveis e desktops.</li>
+    </ul>
+
+    <h2>Objetivos do Projeto</h2>
+    <ul>
+      <li>Desenvolver uma plataforma de ensino inclusiva e acessível.</li>
+      <li>Garantir que estudantes surdos tenham autonomia no processo de aprendizagem.</li>
+      <li>Democratizar o acesso à tecnologia, reduzindo barreiras educacionais.</li>
+    </ul>
+
+    <h2>Tecnologias Utilizadas</h2>
+    <ul>
+      <li>Word (relatórios e documentação)</li>
+      <li>Trello (gestão de tarefas)</li>
+      <li>GitHub (armazenamento do projeto)</li>
+    </ul>
+
+    <h2>Metodologia</h2>
+    <p>Adoção da metodologia ágil Scrum.</p>
+    <p><strong>Definição dos papéis:</strong></p>
+    <ul>
+      <li><strong>Dono do produto:</strong> Barbara Ferreira Araújo</li>
+      <li><strong>Scrum Master:</strong> Gabriele Aparecida Resende Bhering</li>
+      <li><strong>Desenvolvedores:</strong> Leiliane Freitas, Gustavo Barbosa, André Luiz Rodrigues Pinto, Rangel Macedo Gonçalves</li>
+    </ul>
+    <p>Organização no Trello com colunas: Backlog, Fazer, Fazendo, Testando, Feito.</p>
+
+    <h2>Atividades por Sprint</h2>
+    <p>Na Sprint 2, foram realizadas as seguintes atividades:</p>
+    <ul>
+      <li>Casos de uso: Foram criados e explicados 8 casos de uso com seus fluxos de processo. Sendo eles: <em>Cadastro de usuário</em>, <em>Login e Autenticação</em>, <em>Configurar Preferências de Acessibilidade</em>, <em>Assistir aula com tradução em Libras</em>, <em>Ativar Legendas Automáticas</em>, <em>Gerar Transcrição de Áudio</em>, <em>Acessar Simulador de Código</em>, <em>Receber Recomendações de Conteúdo</em>.</li>
+      <li>Organização do Trello registrando as novas atividades realizadas.</li>
+      <li>Criação do Template de requisitos para organizar e registrar todas as etapas e requisitos até a conclusão do projeto.</li>
+      <li>Criação do gráfico de burndown da Sprint 2.</li>
+    </ul>
+
+    <h2>Conclusão</h2>
+    <p>A Sprint 2 permitiu um grande avanço no projeto NeuroCode Libras e estabeleceu uma boa perspectiva sobre o desenvolvimento futuro. Com a definição clara dos casos de uso e os templates de requisitos, a equipe está preparada para avançar para a Sprint 3 e criar o Diagrama de classes, Modelo conceitual e novo Gráfico de Burndown.</p>
+
+    <footer>
+      <p>Relatório produzido pela equipe do projeto NeuroCode Libras – 2025</p>
+    </footer>
+  </div>
+</body>
+</html>
