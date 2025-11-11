@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeuroCode Libras</title>
+    <style>
+        body {
+            font-family: "Segoe UI", Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f6fa;
+            color: #2f3640;
+        }
+
+        header {
+            background-color: #273c75;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 30px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        h1, h2, h3 {
+            color: #192a56;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-left: 30px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #273c75;
+            color: white;
+            margin-top: 40px;
+        }
+
+        img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin: 20px auto;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>NeuroCode Libras</h1>
+        <p>Plataforma de ensino de programação acessível em Libras</p>
+    </header>
+
+    <main>
+        <section>
+            <p>O <strong>NeuroCode Libras</strong> nasceu da necessidade de ampliar a acessibilidade no ensino de programação, oferecendo uma versão inclusiva da plataforma NeuroCode voltada especificamente para estudantes surdos.</p>
+
+            <p>Muitos alunos enfrentam dificuldades em cursos tradicionais de tecnologia por causa da ausência de recursos de acessibilidade, como Libras, legendas ou materiais visuais. Isso gera barreiras significativas de aprendizado e reduz as oportunidades de inclusão digital.</p>
+        </section>
+
+        <section>
+            <h2>Problema Identificado</h2>
+            <p>O ensino de programação para pessoas surdas enfrenta limitações como:</p>
+            <ul>
+                <li>Ausência de tradução em Libras nas aulas e materiais didáticos.</li>
+                <li>Falta de legendas automáticas de qualidade em vídeos.</li>
+                <li>Pouco uso de recursos visuais que facilitem a compreensão de conceitos complexos.</li>
+            </ul>
+
+            <h3>Consequências:</h3>
+            <ul>
+                <li>Dificuldade de acompanhamento das aulas.</li>
+                <li>Menor engajamento dos alunos surdos.</li>
+                <li>Exclusão de um público que deseja se inserir no mercado de tecnologia.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Proposta de Solução</h2>
+            <p>O <strong>NeuroCode Libras</strong> tem como objetivo oferecer um ambiente de aprendizagem acessível, com:</p>
+            <ul>
+                <li>Tradução simultânea em Libras para videoaulas e conteúdos.</li>
+                <li>Legendas automáticas sincronizadas, garantindo clareza e inclusão.</li>
+                <li>Recursos visuais interativos, que simplificam a explicação de algoritmos e lógica de programação.</li>
+                <li>Ambiente responsivo e acessível, adaptado a dispositivos móveis e desktops.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Objetivos do Projeto</h2>
+            <ul>
+                <li>Desenvolver uma plataforma de ensino inclusiva e acessível.</li>
+                <li>Garantir que estudantes surdos tenham autonomia no processo de aprendizagem.</li>
+                <li>Democratizar o acesso à tecnologia, reduzindo barreiras educacionais.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Tecnologias Utilizadas</h2>
+            <ul>
+                <li>Word (relatórios e documentação)</li>
+                <li>Trello (gestão de tarefas)</li>
+                <li>GitHub (armazenamento do projeto)</li0000000000>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Metodologia</h2>
+            <p>Adoção da metodologia ágil <strong>Scrum</strong>.</p>
+            <p>Definição dos papéis:</p>
+            <ul>
+                <li><strong>Dono do produto:</strong> Barbara Ferreira Araújo</li>
+                <li><strong>Scrum Master:</strong> Gabriele Aparecida Resende Bhering</li>
+                <li><strong>Desenvolvedores:</strong> Leiliane Freitas, Gustavo Barbosa, André Luiz Rodrigues Pinto, Rangel Macedo Gonçalves</li>
+            </ul>
+            <p>Organização no Trello com colunas: <em>Backlog</em>, <em>Fazer</em>, <em>Fazendo</em>, <em>Testando</em>, <em>Feito</em>.</p>
+        </section>
+
+        <section>
+            <h2>Atividades da Sprint 03</h2>
+            <ul>
+                <li>Preparação e criação do diagrama de classes.</li>
+            </ul>
+            <img src="diagrama.jpg" alt="Diagrama de Classes do Projeto NeuroCode Libras">
+        </section>
+
+        <section>
+            <h2>Conclusão</h2>
+            <p>A Sprint 3 permitiu um grande avanço no projeto <strong>NeuroCode Libras</strong> e estabeleceu uma perspectiva muito boa sobre o desenvolvimento futuro do mesmo. Com a definição clara do diagrama de classes, a equipe está preparada para avançar para a próxima etapa do projeto.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 NeuroCode Libras — Projeto de Acessibilidade em Tecnologia</p>
+    </footer>
+</body>
+</html>
