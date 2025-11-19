@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relatório Geral das Sprints | NeuroCode Libras</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1, h2, h3 {
+            color: #0a7;
+        }
+        h1 {
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 8px;
+        }
+        ul {
+            margin-left: 25px;
+        }
+        .section {
+            margin-top: 28px;
+        }
+        strong {
+            color: #000;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Relatório Geral das Sprints</h1>
+
+    <p><strong>Projeto:</strong> NeuroCode Libras – Plataforma de ensino de programação inclusiva</p>
+    <p><strong>Disciplina:</strong> Engenharia de Software I (ADS 300)</p>
+    <p><strong>Professor:</strong> Carlos Henrique Tavares Brumatti</p>
+    <p><strong>Turma:</strong> ADS – 2025/2</p>
+
+    <div class="section">
+        <h2>Contextualização</h2>
+
+        <p>
+            O NeuroCode Libras nasceu da necessidade de ampliar a acessibilidade no ensino de programação,
+            oferecendo uma versão inclusiva da plataforma NeuroCode voltada especificamente para estudantes surdos.
+        </p>
+
+        <p>
+            Muitos alunos enfrentam dificuldades em cursos tradicionais de tecnologia por causa da ausência de
+            recursos de acessibilidade, como Libras, legendas ou materiais visuais. Isso gera barreiras
+            significativas de aprendizado e reduz as oportunidades de inclusão digital.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>Problema Identificado</h2>
+
+        <p>O ensino de programação para pessoas surdas enfrenta limitações como:</p>
+
+        <ul>
+            <li>Ausência de tradução em Libras nas aulas e materiais didáticos.</li>
+            <li>Falta de legendas automáticas de qualidade em vídeos.</li>
+            <li>Pouco uso de recursos visuais que facilitem a compreensão de conceitos complexos.</li>
+        </ul>
+
+        <h3>Consequências:</h3>
+
+        <ul>
+            <li>Dificuldade de acompanhamento das aulas.</li>
+            <li>Menor engajamento dos alunos surdos.</li>
+            <li>Exclusão de um público que deseja se inserir no mercado de tecnologia.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Proposta de Solução / Objetivos do Projeto</h2>
+
+        <p>O NeuroCode Libras tem como objetivo oferecer um ambiente de aprendizagem acessível, com:</p>
+
+        <ul>
+            <li>Tradução simultânea em Libras para videoaulas e conteúdos.</li>
+            <li>Legendas automáticas sincronizadas, garantindo clareza e inclusão.</li>
+            <li>Recursos visuais interativos que simplificam a explicação de algoritmos e lógica de programação.</li>
+            <li>Ambiente responsivo e acessível para dispositivos móveis e desktops.</li>
+        </ul>
+
+        <h3>Objetivos do Projeto:</h3>
+        <ul>
+            <li>Desenvolver uma plataforma de ensino inclusiva e acessível.</li>
+            <li>Garantir que estudantes surdos tenham autonomia no processo de aprendizagem.</li>
+            <li>Democratizar o acesso à tecnologia, reduzindo barreiras educacionais.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Tecnologias Utilizadas</h2>
+
+        <ul>
+            <li>Word (relatórios e documentação)</li>
+            <li>Trello (gestão de tarefas)</li>
+            <li>GitHub (armazenamento do projeto)</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Metodologia</h2>
+
+        <p>Adoção da metodologia ágil <strong>Scrum</strong>.</p>
+
+        <p><strong>Definição dos papéis:</strong></p>
+
+        <ul>
+            <li><strong>Dono do Produto:</strong> Barbara Ferreira Araújo</li>
+            <li><strong>Scrum Master:</strong> Gabriele Aparecida Resende Bhering</li>
+            <li>
+                <strong>Desenvolvedores:</strong>  
+                Leiliane Freitas, Gustavo Barbosa, André Luiz Rodrigues Pinto,  
+                Rangel Macedo Gonçalves
+            </li>
+        </ul>
+
+        <p>Organização no Trello com colunas: Backlog, Fazer, Fazendo, Testando e Feito.</p>
+    </div>
+
+    <div class="section">
+        <h2>Atividades por Sprint</h2>
+
+        <h3>Sprint 01</h3>
+        <p>
+            Permitindo consolidar a identidade do projeto NeuroCode Libras e criando a base para o desenvolvimento das próximas etapas.
+        </p>
+
+        <h3>Sprint 02</h3>
+        <p>
+            Foram criados e documentados oito casos de uso, cada um acompanhado do seu respectivo fluxograma:
+        </p>
+
+        <ul>
+            <li>Cadastro de Usuário</li>
+            <li>Login e Autenticação</li>
+            <li>Configurar Preferências de Acessibilidade</li>
+            <li>Assistir Aula com Tradução em Libras</li>
+            <li>Ativar Legendas Automáticas</li>
+            <li>Gerar Transcrição de Áudio</li>
+            <li>Acessar Simulador de Código</li>
+            <li>Receber Recomendações de Conteúdo</li>
+        </ul>
+
+        <p>
+            Também foi feita a organização do Trello, criação do template de requisitos 
+            e elaboração do gráfico de burndown da sprint.
+        </p>
+
+        <h3>Sprint 03</h3>
+        <p>
+            Dedicada à preparação para o diagrama de classes, com estudos e levantamento de informações,
+            além da preparação do gráfico de burndown da sprint.
+        </p>
+
+        <h3>Sprint 04</h3>
+        <p>
+            Foram realizadas as seguintes atividades:
+        </p>
+
+        <ul>
+            <li>Criação do diagrama de atividades.</li>
+            <li>Pesquisa e preparação do gráfico de burndown geral.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Conclusão</h2>
+
+        <p>
+            Em cada Sprint foram encontrados diversos desafios, mas com o esforço de toda a equipe, 
+            cada um deles foi superado. Esse processo gerou grande aprendizado e preparou o grupo 
+            para as próximas etapas que estão por vir.
+        </p>
+    </div>
+
+</body>
+</html>
